@@ -3,9 +3,15 @@ h1
   color : white;
   font-family : "Arial Black";
   text-align: center;
+  #color : white;
+  #font-family : "Arial Black";
+  #text-align: center;
 }
 
 body
 {
+  color : white;
+  font-family : "Arial Black";
+  text-align: center;
   background : #FF9C2A;
 }
