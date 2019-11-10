@@ -1,6 +1,11 @@
 h1
 {
-  color : red;
+  color : white;
   font-family : "Arial Black";
   text-align: center;
+}
+
+body
+{
+  background : #FF9C2A;
 }
