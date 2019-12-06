@@ -1,14 +1,8 @@
-h1
-{
-  #color : white;
-  #font-family : "Arial Black";
-  #text-align: center;
-}
-
-body
-{
-  color : white;
-  font-family : "Arial Black";
-  text-align: center;
-  background : #FF9C2A;
+.bouton{
+  text-align:center;
+  padding:1em;
+  border : 0.5em solid black;
+  height:4em;
+  weight:4em;
+  border-radius: 100%;
 }
