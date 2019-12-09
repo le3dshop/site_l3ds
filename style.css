@@ -1,14 +1,6 @@
-.bouton{
-  text-align:center;
-  padding:1em;
-  border : 0.5em solid black;
-  height:4em;
-  weight:4em;
-  border-radius: 100%;
-}
-
-a{
-  position:absolute;
-  float: left;
-  left:10px;
+*{
+  background : orange;
+  font-family: monospace;
+  color : white;
+  text-align: center;
 }
