@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
   background: orange;
   position : absolute;
@@ -7,4 +8,11 @@ body{
 
 .button{
   font-size: 25;
+=======
+*{
+  background : orange;
+  font-family: monospace;
+  color : white;
+  text-align: center;
+>>>>>>> ef1809ee358c0475dfcc2a4ed740da13ef76acf3
 }
