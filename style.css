@@ -1,14 +1,10 @@
-.bouton{
-  text-align:center;
-  padding:1em;
-  border : 0.5em solid black;
-  height:4em;
-  weight:4em;
-  border-radius: 100%;
+body{
+  background: orange;
+  position : absolute;
+  top : 50%;
+  left : 10%;
 }
 
-a{
-  position:absolute;
-  float: left;
-  left:10px;
+.button{
+  font-size: 25;
 }
