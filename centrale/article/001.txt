@@ -1,0 +1,18 @@
+designation:article centrale
+reference:001
+groupe:0
+gencode:0000000000000
+fournisseur:0
+reference-fournisseur:0
+prix-achat:0.10
+devise-prix-achat:EUR
+pcb:1
+unite-pcb:PCE
+quantite:1
+unite-quantite:PCE
+pcb-minimum:1
+prix:0.01
+devise-prix:EUR
+stock-mini:1
+adresse:
+date:03.02.2020
