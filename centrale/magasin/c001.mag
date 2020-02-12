@@ -1,0 +1,9 @@
+id:c001;C001
+designation:Centrale
+ville:Voiron
+cp:38500
+session{
+id1:c001hr01;1906
+id2:c001di01;1906
+fin:2
+}
