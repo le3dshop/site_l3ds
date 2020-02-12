@@ -1,3 +1,13 @@
+body{
+  background: orange;
+  position : absolute;
+  top : 50%;
+  left : 10%;
+}
+
+.button{
+  font-size: 25;
+
 *{
   background : orange;
   font-family: monospace;
