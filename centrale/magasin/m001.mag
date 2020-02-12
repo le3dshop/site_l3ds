@@ -2,5 +2,6 @@ id:m001;m001
 designation:Magasin de VOIRON
 ville:Voiron
 session{
-  id1:m001di00
+id1:m001di00;1906
+fin:1
 }
