@@ -3,6 +3,7 @@ designation:Centrale
 ville:Voiron
 cp:38500
 session{
-  id1:c001hr01;C001HR01
-  id2:c001di01;C001DI01
+id1:c001hr01;1906
+id2:c001di01;1906
+fin:2
 }
