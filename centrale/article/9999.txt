@@ -1,0 +1,23 @@
+site:ALL
+designation:Article test
+reference:9999
+groupe:01010101
+ean:0
+fournisseur:0
+reffour:0
+pa:0.10
+devise-pa:EUR
+pcb:1
+unite-pcb:PCE
+quantite:1
+unite:PCE
+pcbmin:1
+0:10
+1:
+0:8
+1:
+0:7
+1:
+stkm:1
+adresse:Z
+crea:19.02.2020
