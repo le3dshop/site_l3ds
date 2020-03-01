@@ -1,33 +1,65 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Test du site le3dshop.com</title>
-    <style>
-      body{
-        background: orange;
-        margin-bottom: 50%;
-        text-align: center;
-        font-family: Arial;
-        color : white;
-      }
+<head>
+  <title>CUSTOM TOGGLE BUTTON</title>
+  <style>
+  .container{
+  position : relative;
+  width : 300px; height: 150px;
+  background-color: grey;
+  border-radius: 100px;
+}
 
-      .button{
-        font-size: 25;
+.toggle{
+  position: absolute; left:0;
+  width: 150px; height: 150px;
+  border-radius:100px;
+  box-shadow: -2px -2px 10px grey;
+  trasition:all 0.3s ease-in-out;
+  transform: scale(1.1);
+  border:none; outline:none;
+}
 
-      *{
-        background : orange;
-        font-family: Arial;
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- <table>
-      <tr>
-        <td><input type = "button" value="Magasin"></td>
-        <td><input type = "button" value="Client"></td>
-      </tr>
-    </table> -->
-  </body>
-  <h1>Site le3dshop.com en maintenance.</h1>
-  <!-- <img src="L3DS_logo_blanc.png"> -->
+.add{
+  position: absolute; left:150px;
+}
+  </style>
+  <script>
+  const container = document.querySelector(".container");
+  const toggleButton = document.querySelector(".toggle");
+
+  container.addEventListener("click",toggle);
+
+  fonction toggle(){
+    container.style.backgroundColor=(container.style.backgroundColor=="orange") ? "grey":"orange";
+  }
+  </script>
+</head>
+<body>
+
+<div class="container">
+  <button class="toggle"></button>
+  </div>
+
+</body>
 </html>
+.container{
+position : relative;
+width : 300px; height: 150px;
+background-color: grey;
+border-radius: 100px;
+}
+
+.toggle{
+position: absolute; left:0;
+width: 150px; height: 150px;
+border-radius:100px;
+box-shadow: -2px -2px 10px grey;
+trasition:all 0.3s ease-in-out;
+transform: scale(1.1);
+border:none; outline:none;
+}
+
+.add{
+position: absolute; left:150px;
+}
