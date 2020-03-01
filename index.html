@@ -1,65 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>CUSTOM TOGGLE BUTTON</title>
+  <title>Le 3D Shop</title>
   <style>
-  .container{
-  position : relative;
-  width : 300px; height: 150px;
-  background-color: grey;
-  border-radius: 100px;
-}
-
-.toggle{
-  position: absolute; left:0;
-  width: 150px; height: 150px;
-  border-radius:100px;
-  box-shadow: -2px -2px 10px grey;
-  trasition:all 0.3s ease-in-out;
-  transform: scale(1.1);
-  border:none; outline:none;
-}
-
-.add{
-  position: absolute; left:150px;
-}
+  
   </style>
   <script>
-  const container = document.querySelector(".container");
-  const toggleButton = document.querySelector(".toggle");
 
-  container.addEventListener("click",toggle);
-
-  fonction toggle(){
-    container.style.backgroundColor=(container.style.backgroundColor=="orange") ? "grey":"orange";
-  }
   </script>
 </head>
 <body>
 
-<div class="container">
-  <button class="toggle"></button>
-  </div>
 
 </body>
 </html>
-.container{
-position : relative;
-width : 300px; height: 150px;
-background-color: grey;
-border-radius: 100px;
-}
-
-.toggle{
-position: absolute; left:0;
-width: 150px; height: 150px;
-border-radius:100px;
-box-shadow: -2px -2px 10px grey;
-trasition:all 0.3s ease-in-out;
-transform: scale(1.1);
-border:none; outline:none;
-}
-
-.add{
-position: absolute; left:150px;
-}
