@@ -1,54 +1,81 @@
 <html>
   <head>
     <title>Le 3D Shop</title>
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
     <style>
       @font-face {
-       font-family: "Futura";
-       src: url("futura.ttf") format("ttf"),
+        font-family: "Futura";
+        src: url("futura.ttf") format("ttf"),
       }
       body{
-        background-color: white;
-        font-size: 30px;
+        background: orange;
+        color:black;
+        font-size: 50px;
         font-family: 'Futura';
         text-align: center;
-        color:Black;
       }
-      .boite{
-        /* margin-top: 40%; */
+      .header{
+        background: white;
+        position: fixed;
+        left:0;
+        right:0;
+        top:0;
+        height: 100px;
+      }
+
+      .table_header{
+        width: 100%;
       }
       .btn{
-        background-color : #B42DB4;
-        margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        width : 300px;
-        height: 50px;
-        border-radius: 25px;
+        color: white;
+        text-align: center;
+        margin: auto;
+        margin-top: 15px;
+        border-radius: 20px;
+        line-height:55px;
+        padding:  0 auto;
+        height: 60px;
+        width: 200px;
       }
       .btn:hover{
         transform: scale(0.95);
         transition-duration: 0.3s;
       }
-      .txt-in-btn{
-        color: white;
-        position: relative;
-        line-height: 50px;
+      .rouge{
+        background: #ED4133;
+      }
+      .jaune{
+        background: #FFD100;
+      }
+      .vert{
+        background: #00A75A;
+      }
+      .bleu{
+        background: #4681FD;
+      }
+      .message{
+        color: black;
+        margin-top: 20%;
         text-align: center;
       }
     </style>
-    <script>
-
-    </script>
-  </head>
-  <body>
-    <div class= "boite">
-    Je suis un ...
-      <div class = "btn">
-        <div class = "txt-in-btn" onclick="location.href='http://www.google.co.ma';">client.</div>
+    </head>
+    <body>
+    <div class="header">
+      <div>
+        <table class = "table_header">
+          <tr>
+            <td><div class ="btn rouge">Estimer une pièce</div></td>
+            <td><div class ="btn jaune">Trouver mon plastique</div></td>
+            <td><div class ="btn">BTN1</div></td>
+            <td><div class ="btn bleu">Suivre une commande</div></td>
+            <td><div class ="btn vert">Point de vente</div></td>
+          </tr>
+        </table>
       </div>
-    <div class = "btn">
-      <div class = "txt-in-btn">point de vente.</div>
     </div>
-  </div>
+    <div class="message">
+      LE SITE LE3DSHOP.COM EST EN MAINTENANCE. BIENTOT IL SERA NAVIGABLE.
+    </div>
   </body>
 </html>
