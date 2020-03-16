@@ -1,73 +1,20 @@
 <html>
   <head>
     <title>Le 3D Shop</title>
-    <!-- <link rel="stylesheet" href="./style.css" /> -->
-    <style>
-      @font-face {
-        font-family: "Futura";
-        src: url("futura.ttf") format("ttf"),
-      }
-      body{
-        background: orange;
-        color:black;
-        font-size: 50px;
-        font-family: 'Futura';
-        text-align: center;
-      }
-      .header{
-        background: white;
-        position: fixed;
-        left:0;
-        right:0;
-        top:0;
-        height: 100px;
-      }
-
-      .table_header{
-        width: 100%;
-      }
-      .btn{
-        color: white;
-        text-align: center;
-        margin: auto;
-        margin-top: 15px;
-        border-radius: 20px;
-        line-height:55px;
-        padding:  0 auto;
-        height: 60px;
-        width: 200px;
-      }
-      .btn:hover{
-        transform: scale(0.95);
-        transition-duration: 0.3s;
-      }
-      .rouge{
-        background: #ED4133;
-      }
-      .jaune{
-        background: #FFD100;
-      }
-      .vert{
-        background: #00A75A;
-      }
-      .bleu{
-        background: #4681FD;
-      }
-      .message{
-        color: black;
-        margin-top: 20%;
-        text-align: center;
-      }
-    </style>
+    <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
     <div class="header">
       <div>
         <table class = "table_header">
           <tr>
-            <td><div class ="btn rouge">Estimer une pièce</div></td>
-            <td><div class ="btn jaune">Trouver mon plastique</div></td>
-            <td><div class ="btn">BTN1</div></td>
+            <td><div class ="btn rouge"
+                     onclick="window.location.href='estimate_piece.html'">Estimer une pièce</div></td>
+            <td><div class ="btn jaune"
+                      onclick="window.location.href='find_plastic.html'">Trouver mon plastique</div></td>
+            <td><div class = "btn"><img src="L3DS_logo_blanc.png"
+                     width ="60"
+                     height="60"></div></td>
             <td><div class ="btn bleu">Suivre une commande</div></td>
             <td><div class ="btn vert">Point de vente</div></td>
           </tr>
