@@ -1,1 +1,1 @@
-Message de test envoyé sur le serveur !
+Message de test !
