@@ -1,0 +1,17 @@
+body{
+  background-color: red;
+}
+
+.progress-bar{
+  border: 3px solid #fff;
+  border-radius: 45px;
+  padding: 3px;
+}
+
+.progres{
+  color: white;
+  background-color:white;
+  padding: 20px;
+  border-radius:30px;
+  width: 1%;
+}
