@@ -39,5 +39,5 @@ body{
   background-color:var(--main-font-color);
   padding: 5px;
   border-radius:30px;
-  width: 99%;
+  width: inherit;
 }
