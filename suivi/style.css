@@ -1,0 +1,43 @@
+:root {
+  --main-bg-color: white; /* #D80101 */
+  --main-font-color: grey;
+}
+
+font-face {
+  font-family: "Coolvetica";
+  src: url("Coolvetica.ttf") format("ttf"),
+}
+
+body{
+  background: var(--main-bg-color);
+  color:var(--main-font-color);
+  font-size: 50px;
+  font-family: 'Coolvetica';
+  text-align: center;
+}
+
+.suivi-commande{
+  margin: 0px;
+  padding: 10px;
+}
+
+.bonjour{
+  margin: 0px;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.progress-bar{
+  border: 3px solid var(--main-font-color);
+  border-radius: 45px;
+  padding: 3px;
+}
+
+.progres{
+  color: var(--main-bg-color);
+  font-size: 40px;
+  background-color:var(--main-font-color);
+  padding: 5px;
+  border-radius:30px;
+  width: 99%;
+}
